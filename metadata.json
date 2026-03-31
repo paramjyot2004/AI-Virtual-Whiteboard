@@ -1,0 +1,5 @@
+{
+  "name": "AI Gesture-Controlled Virtual Whiteboard",
+  "description": "A real-time virtual whiteboard controlled by hand gestures using MediaPipe and computer vision. Draw, erase, and select colors using finger movements.",
+  "requestFramePermissions": ["camera"]
+}
