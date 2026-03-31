@@ -1,19 +1,55 @@
-# AI Gesture-Controlled Virtual Whiteboard
 
-A production-quality computer vision project that allows users to draw on a virtual canvas using hand gestures captured via webcam.
+# 🎨 AI Gesture-Controlled Virtual Whiteboard
 
-## Features
-- **Real-time Hand Tracking**: Uses MediaPipe Hands to detect 21 landmarks.
-- **Gesture Modes**:
-  - **Drawing Mode**: Raise only your index finger to draw.
-  - **Selection Mode**: Raise both index and middle fingers to select colors or the eraser from the top toolbar.
-- **Dynamic Toolbar**: Switch between Blue, Green, Red colors and an Eraser.
-- **Smooth Drawing**: Implements continuous line drawing to avoid broken strokes.
-- **Mirror Effect**: Flips the camera feed for a natural user experience.
-- **Performance**: Real-time processing at 25-30 FPS.
-- **Controls**:
-  - `c`: Clear the entire canvas.
-  - `ESC`: Exit the application.
+🚀 A production-quality Computer Vision project that enables users to draw on a virtual canvas using hand gestures captured via webcam — no mouse, no touch, completely contactless!
+
+---
+
+## ✨ Features
+
+🔍 **Real-time Hand Tracking**  
+- Uses MediaPipe Hands to detect **21 hand landmarks** with high accuracy  
+
+✋ **Gesture-Based Interaction**
+- ☝️ **Drawing Mode** → Raise only index finger  
+- ✌️ **Selection Mode** → Raise index + middle finger  
+
+🎨 **Dynamic Toolbar**
+- Switch between:
+  - 🔵 Blue  
+  - 🟢 Green  
+  - 🔴 Red  
+  - 🧽 Eraser  
+
+🖌 **Smooth Drawing**
+- Continuous stroke rendering to avoid broken lines  
+
+🪞 **Mirror Effect**
+- Natural interaction using flipped webcam feed  
+
+⚡ **High Performance**
+- Real-time processing at **25–30 FPS**
+
+---
+
+## 🎮 Controls
+
+| Action | Gesture / Key |
+|------|-------------|
+| Draw | ☝️ Index finger up |
+| Select Mode | ✌️ Index + Middle finger |
+| Erase | Select Eraser from toolbar |
+| Clear Canvas | Press **C** |
+| Exit | Press **ESC** |
+
+---
+
+## 🛠️ Installation
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/paramjyot2004/AI-Virtual-Whiteboard.git
+cd AI-Virtual-Whiteboard
 
 ## Installation
 
